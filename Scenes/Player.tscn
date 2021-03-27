@@ -23,3 +23,5 @@ cast_to = Vector2( 0, 100 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+
+[node name="Timer" type="Timer" parent="Camera2D"]

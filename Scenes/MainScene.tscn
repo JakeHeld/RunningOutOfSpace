@@ -9,4 +9,4 @@
 z_index = 1
 
 [node name="Map" parent="." instance=ExtResource( 2 )]
-position = Vector2( -509.598, -381.637 )
+position = Vector2( -563.569, -435.609 )

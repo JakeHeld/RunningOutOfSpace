@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var moveSpeed : int = 250 
+var moveSpeed : int = 400 
 var interactDist : int = 10 #Distance (pixels) to be able to interact with items
 var velocity : Vector2 = Vector2() # "Speed" of the player
 var facingDirection : Vector2 = Vector2() # direction player is facing, even while not moving
