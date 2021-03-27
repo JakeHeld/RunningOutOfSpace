@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BrokenHead.png-2068c8c77645cd29e92a34da11c8be2e.stex"
+path="res://.import/BrokenRightWing.png-24b3f3fa941c180bcfcf450842f19c3b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/BrokenHead.png"
-dest_files=[ "res://.import/BrokenHead.png-2068c8c77645cd29e92a34da11c8be2e.stex" ]
+source_file="res://Sprites/Tiles/BrokenRightWing.png"
+dest_files=[ "res://.import/BrokenRightWing.png-24b3f3fa941c180bcfcf450842f19c3b.stex" ]
 
 [params]
 
