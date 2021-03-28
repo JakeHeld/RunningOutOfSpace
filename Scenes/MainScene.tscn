@@ -11,10 +11,11 @@
 [node name="MainScene" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, -337.659 )
 z_index = 1
 
 [node name="Map" parent="." instance=ExtResource( 2 )]
-position = Vector2( -519.112, -457.746 )
+position = Vector2( -534.129, -488.909 )
 script = ExtResource( 3 )
 
 [node name="ewasrdtfyguhijokp[" type="Sprite" parent="."]
