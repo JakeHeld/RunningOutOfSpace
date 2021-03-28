@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprites/Tiles/servership.png" type="Texture" id=1]
+
+[node name="ServerShipScene" type="Node2D"]
+
+[node name="servership" type="Sprite" parent="."]
+position = Vector2( 44.5383, 150.367 )
+scale = Vector2( 5, 5 )
+texture = ExtResource( 1 )

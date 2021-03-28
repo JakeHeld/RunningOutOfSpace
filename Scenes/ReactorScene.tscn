@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprites/Tiles/Reactor.png" type="Texture" id=1]
+
+[node name="ReactorScene" type="Node2D"]
+
+[node name="Reactor" type="Sprite" parent="."]
+position = Vector2( -6.40417, 69.4587 )
+scale = Vector2( 6, 6 )
+texture = ExtResource( 1 )
