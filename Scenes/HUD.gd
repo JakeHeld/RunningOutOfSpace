@@ -4,6 +4,7 @@ extends CanvasLayer
 var timer
 var seconds: int = 30
 var minutes: int = 2
+var killer: int = 1
 
 func _ready():
    timer = Timer.new()
@@ -19,6 +20,6 @@ func _on_timer_timeout():
 	if seconds == 0:
 	  seconds = 59
 	  minutes -= 1
-	if minutes == 60: minutes  = 0
-	print( minutes, " : ", str(seconds).pad_zeros(2) )
-	$Label.set_text(str(minutes, " : ", str(seconds).pad_zeros(2)))
+	if minutes == 60: minutes  = 0	
+	print( minutes, ":", str(seconds).pad_zeros(2) )
+	$Label.set_text(str(minutes, ":", str(seconds).pad_zeros(2)))
