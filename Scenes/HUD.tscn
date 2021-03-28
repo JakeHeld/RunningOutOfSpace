@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/HUD.gd" type="Script" id=1]
+
+[sub_resource type="DynamicFontData" id=2]
+font_path = "res://Font/LiberationMono-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = SubResource( 2 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+layer = 2
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 720.198
+margin_top = -19.1893
+margin_right = 1126.2
+margin_bottom = 98.8107
+custom_fonts/font = SubResource( 1 )
+text = "Start"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
